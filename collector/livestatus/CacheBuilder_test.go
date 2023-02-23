@@ -1,7 +1,7 @@
 package livestatus
 
 import (
-	"github.com/griesbacher/nagflux/logging"
+	"github.com/Krounth/nagflux/logging"
 	"reflect"
 	"testing"
 	"time"

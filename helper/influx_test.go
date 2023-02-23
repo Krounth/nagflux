@@ -1,7 +1,7 @@
 package helper
 
 import (
-	"github.com/griesbacher/nagflux/config"
+	"github.com/Krounth/nagflux/config"
 	"reflect"
 	"testing"
 )

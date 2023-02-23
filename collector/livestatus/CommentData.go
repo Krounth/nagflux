@@ -1,9 +1,9 @@
 package livestatus
 
 import (
-	"github.com/griesbacher/nagflux/collector"
-	"github.com/griesbacher/nagflux/helper"
-	"github.com/griesbacher/nagflux/logging"
+	"github.com/Krounth/nagflux/collector"
+	"github.com/Krounth/nagflux/helper"
+	"github.com/Krounth/nagflux/logging"
 )
 
 //CommentData adds Comments types to the livestatus data

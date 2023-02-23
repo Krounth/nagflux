@@ -2,8 +2,8 @@ package livestatus
 
 import (
 	"fmt"
-	"github.com/griesbacher/nagflux/collector"
-	"github.com/griesbacher/nagflux/logging"
+	"github.com/Krounth/nagflux/collector"
+	"github.com/Krounth/nagflux/logging"
 	"testing"
 	"time"
 )

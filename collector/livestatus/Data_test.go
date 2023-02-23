@@ -2,7 +2,7 @@ package livestatus
 
 import (
 	"fmt"
-	"github.com/griesbacher/nagflux/helper"
+	"github.com/Krounth/nagflux/helper"
 	"reflect"
 	"testing"
 )

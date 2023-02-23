@@ -15,8 +15,8 @@ Golang 1.5+
 
 ## Install
 ```
-go get -u github.com/griesbacher/nagflux
-go build github.com/griesbacher/nagflux
+go get -u github.com/Krounth/nagflux
+go build github.com/Krounth/nagflux
 ```
 A x86-64 Linux binary will be added to the releases. Here the link to the latest [Release](https://github.com/Griesbacher/nagflux/releases/latest).
 
