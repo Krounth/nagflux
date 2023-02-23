@@ -28,6 +28,7 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
 func ExampleGauge() {
@@ -195,7 +196,7 @@ func ExampleRegister() {
 	}
 	// Don't forget to tell the HTTP server about the Prometheus handler.
 	// (In a real program, you still need to start the HTTP server...)
-	http.Handle("/metrics", prometheus.Handler())
+	http.Handle("/metrics", promhttp.Handler())
 
 	// Now you can start workers and give every one of them a pointer to
 	// taskCounter and let it increment it whenever it completes a task.
